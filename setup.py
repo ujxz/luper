@@ -1,18 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="luper",
-    version="0.0.1",
-    description="Luper: A web page brute-force tool similar to gobuster and dirsearch",
-    author="Jabes Eduardo",
-    author_email="jabfxcomercial@gmail.com",
-    packages=find_packages(),
-    install_requires=[
-        "requests",
-    ],
+    name='luper',
+    version='0.0.7',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     entry_points={
-        "console_scripts": [
-            "luper=luper.brute_forcer:main",
+        'console_scripts': [
+            'src = brute_forcer:main',
         ],
     },
+    install_requires=[
+        'requests',
+    ],
+    description='Luper: Discovery Enumaration',
+    author='Jabes Eduardo',
+    author_email='jabfxcomercial@gmail.com',
+    url='https://github.com/ujxz/luper',
 )

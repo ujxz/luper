@@ -24,14 +24,15 @@ $ python tests/test_brute_forcer.py -u "URL" -w "WORDLIST"
 
 Contribution
 ---------------
-We have been receiving a lot of helps from many people around the world to improve this tool. Thanks so much to everyone who have helped us so far!
-See [CONTRIBUTORS.md](https://github.com/ujxz/luper/blob/master/CONTRIBUTORS.md) to know who they are.
+To become a contributor, fork this repository or make an issue, everyone is welcome to help with this project
+
+See [CONTRIBUTORS.md](https://github.com/ujxz/luper/blob/master/CONTRIBUTORS.md) to see who the contributors are so far.
 
 #### Pull requests, forks and feature requests are welcomed
 
 
 License
 ---------------
-Copyright (C) Jabes Eduardo [](jabfxcomercial@gmail.com)
+Copyright (C) ujxz [gmail](jabfxcomercial@gmail.com)
 
 License: MIT
