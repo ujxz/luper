@@ -6,3 +6,4 @@ venv
 .idea/
 .vscode/
 .DS_Store
+luper.egg-info/

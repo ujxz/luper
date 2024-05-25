@@ -16,6 +16,11 @@ Produced by @ujxz, inspired by **Dirsearch** by @maurosoria
 
 *Send me a message on twitter: [@_ujxz](https://x.com/_ujxz)*
 
+How to use
+---------------
+```
+$ python tests/test_brute_forcer.py -u "URL" -w "WORDLIST"
+```
 
 Contribution
 ---------------
