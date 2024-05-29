@@ -1,3 +1,8 @@
+# 0.1.7 - May 29, 2024
+- Enumeration working correctly
+- OS supported so far: Windows and Linux
+- Improved appearance
+
 # 0.1.1 - May 25, 2024
 - Bugs fixed
 - Enumeration working correctly

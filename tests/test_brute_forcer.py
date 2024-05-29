@@ -32,9 +32,9 @@ class TestBruteForcer(unittest.TestCase):
         self.assertEqual(result, expected_results)
 
 def main():
-    parser = argparse.ArgumentParser(description="\033[97mLuper: Ferramenta de força bruta para páginas web.")
-    parser.add_argument('-u', '--url', required=True, help="A URL base para força bruta")
-    parser.add_argument('-w', '--wordlist', required=True, help="O arquivo de wordlist a ser usado")
+    parser = argparse.ArgumentParser(description="\033[97mLuper: Discovery Enumeration.")
+    parser.add_argument('-u', '--url', required=True, help="url")
+    parser.add_argument('-w', '--wordlist', required=True, help="wordlist")
 
     args = parser.parse_args()
     brute_force(args.url, args.wordlist)

@@ -1,4 +1,4 @@
-<img src="img/logo.png" alt="luper logo" width="675px">
+<img src="img/logo.png" alt="luper logo" width="275px">
 
 Luper - Discovery Enumerator
 =========
@@ -12,7 +12,7 @@ Luper - Discovery Enumerator
 
 > Discovery Enumerator - brute-forcer
 
-Produced by @ujxz, inspired by **Dirsearch** by @maurosoria
+Produced by @ujxz, inspired by **Dirsearch** by [@maurosoria](https://github.com/maurosoria)
 
 *Send me a message on twitter: [@_ujxz](https://x.com/_ujxz)*
 
@@ -20,6 +20,39 @@ How to use
 ---------------
 ```
 $ python tests/test_brute_forcer.py -u "URL" -w "WORDLIST"
+```
+### exemple
+---------------
+```
+PS $ python .\tests\test_brute_forcer.py -u "https://google.com" -w .\wordlists\common.txt
+
+==================================================
+LUPER  v0.1.7
+by Jabes Eduardo (@ujxz)
+==================================================
+[*] target ->>  https://google.com
+[*] wordlist ->>  .\wordlists\common.txt
+[*] wordlist size ->>  4614
+===================================================
+[#] https://google.com/
+(170/4614) [\-------------------][#] https://google.com/2001
+(171/4614) [\-------------------][#] https://google.com/2002
+(172/4614) [\-------------------][#] https://google.com/2003
+(173/4614) [\-------------------][#] https://google.com/2004
+(174/4614) [\-------------------][#] https://google.com/2005
+(175/4614) [\-------------------][#] https://google.com/2006
+(176/4614) [\-------------------][#] https://google.com/2007
+(177/4614) [\-------------------][#] https://google.com/2008
+(178/4614) [\-------------------][#] https://google.com/2009
+(179/4614) [\-------------------][#] https://google.com/2010
+(180/4614) [\-------------------][#] https://google.com/2011
+(181/4614) [\-------------------][#] https://google.com/2012
+(182/4614) [\-------------------][#] https://google.com/2013
+(183/4614) [\-------------------][#] https://google.com/2014
+(222/4614) [\-------------------][#] https://google.com/about
+(241/4614) [\-------------------][#] https://google.com/accessibility
+(246/4614) [\-------------------][#] https://google.com/account
+(251/4614) [\-------------------][#] https://google.com/accounts
 ```
 
 Contribution
